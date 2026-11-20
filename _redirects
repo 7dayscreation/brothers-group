@@ -1,0 +1,42 @@
+# -------------------------------------------------------------------
+# Brothers Group LLP - URL Redirections & Clean URL Rules
+# Compatible with Cloudflare Pages, Netlify, and static hosts
+# -------------------------------------------------------------------
+
+# 1. Legacy .php redirects to clean directory URLs
+/index.php                  /                         301
+/about.php                  /about/                   301
+/projects.php               /projects/                301
+/b-ethics.php               /b-ethics/                301
+/b-ethos.php                /b-ethos/                 301
+/b-creation.php             /b-creation/              301
+/b-ambition.php             /b-ambition/              301
+/construction-update.php    /construction-update/     301
+/journal.php                /journal/                 301
+/contact.php                /contact/                 301
+/rera-policy.php            /rera-policy/             301
+
+# 2. Legacy .html redirects to clean directory URLs
+/index.html                 /                         301
+/about.html                 /about/                   301
+/projects.html              /projects/                301
+/b-ethics.html              /b-ethics/                301
+/b-ethos.html               /b-ethos/                 301
+/b-creation.html            /b-creation/              301
+/b-ambition.html            /b-ambition/              301
+/construction-update.html   /construction-update/     301
+/journal.html               /journal/                 301
+/contact.html               /contact/                 301
+/rera-policy.html           /rera-policy/             301
+
+# 3. Clean path without trailing slash to trailing slash (directory index)
+/about                      /about/                   301
+/projects                   /projects/                301
+/b-ethics                   /b-ethics/                301
+/b-ethos                    /b-ethos/                 301
+/b-creation                 /b-creation/              301
+/b-ambition                 /b-ambition/              301
+/construction-update        /construction-update/     301
+/journal                    /journal/                 301
+/contact                    /contact/                 301
+/rera-policy                /rera-policy/             301
